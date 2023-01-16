@@ -5,17 +5,19 @@
 Para correr el juego debes seguir las siguientes instrucciones en la terminal:
 
 ```sh
-clone el repo
+git clone https://github.com/marco1367/platzi-curso-python-pip-entornos-virtuales.git
 cd game
 python3 main.py
 ```
 
-# countries charts populations
+# APP Project: countries charts 
 
 para correr el script y generar los graficos sifue las siguientes inst en la terminal:
 
 ```sh
-clone el repo
+git clone https://github.com/marco1367/platzi-curso-python-pip-entornos-virtuales.git
 cd app
+source env/bin/activate
+pip3 install -r requirements.txt
 python3 main.py
 ```
