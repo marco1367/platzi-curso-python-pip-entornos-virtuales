@@ -3,3 +3,5 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
+    volumes:
+      - .:/docker_pandas_app
